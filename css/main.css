@@ -50,11 +50,18 @@ html,h1,h2,h3,h4,h5,h6,a {
     background-size: cover;
     background-position: center;
     height: 500px;
+    opacity: 0.4;
+    transform: translate(0, 20px);
+    transition: all 2s;
+}
+
+.para.visible {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 .about {
-  margin: 4em auto;
-  padding: 1em;
-  position: relative;
+  padding: 2rem;
+  height: 40vh;
 }
 .about-title {
   color: #333;
@@ -84,8 +91,25 @@ html,h1,h2,h3,h4,h5,h6,a {
     transition: all .3s;
 }
 
+.portfolio {
+    background: #f4f4f4;
+    padding: 2rem;
+    height: 40vh;
+}
+
+.portfolio-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 2rem;
+    height: 40vh;
+    background: #fff;
+}
 .footer {
-    margin: 1rem;
+    padding: 2rem;
+    height: 10vh;
     background: #202020;
     color: #fff;
 }
