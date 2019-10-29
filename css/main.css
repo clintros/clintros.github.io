@@ -39,30 +39,42 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .header {
-    background-image: url('../images/header.jpg'); 
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.overlay {
- position: absolute;
- min-height: 100%;
- min-width: 100%;
- left: 0;
- top: 0;
- background: rgba(244, 244, 244, 0.79);
-}
-
-.description{
-    position: absolute;
-    top: 20%;
-    margin: auto;
-    padding: 2em;
+    padding: 210px 0;
     
 }
 
-.bs-linebreak {
-    margin-top: 10%;
+.para {
+    background: #000000;
+}
+.about {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.about-title {
+  color: #333;
+  margin-bottom: 20px;
+
+}
+.about img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.btn-link-2 {
+    display: inline-block;
+    height: 50px;
+    margin-top: 1rem;
+    padding: 0 28px;
+    background: #9b59b6;
+    background: rgba(155, 89, 182, 0.7);
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .3s;
 }
