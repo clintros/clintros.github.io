@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: "Raleway";
 }
 
@@ -11,7 +10,18 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .navbar { 
     background:#1E2433; 
-    justify-content: flex-end;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar-nav {
+   color: #fff;
+   font-weight: 400;
+
 }
 
 .nav-link , .navbar-brand { 
@@ -19,19 +29,21 @@ html,h1,h2,h3,h4,h5,h6,a {
     cursor: pointer;
 }
 
-/* .nav-link {
-    margin-right: 1em;
-} */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
-.nav-link:hover {
+.nav-link:hover , .navbar-brand:hover {
     color: #fff;
 }
 
 .header {
-    background-image: url('../images/header-img.jpg'); 
+    background-image: url('../images/header.jpg'); 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .overlay {
@@ -45,7 +57,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .description{
     position: absolute;
-    top: 30%;
+    top: 20%;
     margin: auto;
     padding: 2em;
     
@@ -54,3 +66,4 @@ html,h1,h2,h3,h4,h5,h6,a {
 .bs-linebreak {
     margin-top: 10%;
 }
+
