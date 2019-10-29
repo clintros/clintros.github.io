@@ -19,9 +19,9 @@ html,h1,h2,h3,h4,h5,h6,a {
     cursor: pointer;
 }
 
-.nav-link {
+/* .nav-link {
     margin-right: 1em;
-}
+} */
 
 .nav-link:hover {
     color: #fff;
