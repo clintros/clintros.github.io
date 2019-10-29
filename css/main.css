@@ -40,7 +40,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .top {
     padding: 10rem;
-    height: 70vh;
+    height: 57rem;
     
 }
 
@@ -61,7 +61,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 .about {
   padding: 2rem;
-  height: 40vh;
+  height: 35rem;
 }
 .about-title {
   color: #333;
@@ -94,7 +94,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 .portfolio {
     background: #f4f4f4;
     padding: 2rem;
-    height: 40vh;
+    height: 35rem;
 }
 
 .portfolio-title {
@@ -104,12 +104,12 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .contact {
     padding: 2rem;
-    height: 40vh;
+    height: 35rem;
     background: #fff;
 }
 .footer {
     padding: 2rem;
-    height: 10vh;
+    height: 20rem;
     background: #202020;
     color: #fff;
 }
