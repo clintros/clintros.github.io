@@ -38,13 +38,18 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: #fff;
 }
 
-.header {
-    padding: 210px 0;
+.top {
+    padding: 10rem;
+    height: 70vh;
     
 }
 
 .para {
-    background: #000000;
+    background-image: url('../images/header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
 }
 .about {
   margin: 4em auto;
@@ -77,4 +82,10 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: #fff;
     border-radius: 4px;
     transition: all .3s;
+}
+
+.footer {
+    margin: 1rem;
+    background: #202020;
+    color: #fff;
 }
