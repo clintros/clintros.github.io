@@ -86,8 +86,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .about {
   padding-top: 100px;
-  /* height: 35rem; */
-  height: 100vh;
+  height: 90rem;
 }
 .about-title {
   color: #333;
@@ -104,8 +103,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 .portfolio {
     background: #f4f4f4;
     padding-top: 100px;
-    /* height: 35rem; */
-    height: 100vh;
+    height: 90rem;
 }
 
 .portfolio-title {
@@ -113,22 +111,9 @@ html,h1,h2,h3,h4,h5,h6,a {
     margin-bottom: 20px;
 }
 
-.projects {
-    background: #fff;
-    padding-top: 100px;
-    /* height: 35rem; */
-    height: 100vh;
-}
-
-.projects-title {
-    color: #333;
-    margin-bottom: 20px;
-}
-
 .contact {
     padding-top: 100px;
-    /* height: 35rem; */
-    height: 50vh;
+    height: 40rem;
     background: rgba(155, 89, 182, 0.8);
     color: #fff;
 }
