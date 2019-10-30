@@ -86,7 +86,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .about {
   padding-top: 100px;
-  height: 90rem;
+  height: 60rem;
 }
 .about-title {
   color: #333;
@@ -103,7 +103,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 .portfolio {
     background: #f4f4f4;
     padding-top: 100px;
-    height: 90rem;
+    height: 60rem;
 }
 
 .portfolio-title {
@@ -113,7 +113,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .contact {
     padding-top: 100px;
-    height: 40rem;
+    height: 30rem;
     background: rgba(155, 89, 182, 0.8);
     color: #fff;
 }
