@@ -34,10 +34,13 @@ html,h1,h2,h3,h4,h5,h6,a {
     padding-right: 1rem;
 }
 
-.nav-link:hover , .navbar-brand:hover {
-    color: #fff;
-}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.9);
 
+  }
 .top {
     padding-top: 10rem;
     height: 57rem;
@@ -58,8 +61,9 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .about {
-  padding: 2rem;
-  height: 35rem;
+  padding-top: 100px;
+  /* height: 35rem; */
+  height: 100vh;
 }
 .about-title {
   color: #333;
@@ -71,6 +75,31 @@ html,h1,h2,h3,h4,h5,h6,a {
   -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 16px;
+}
+
+.portfolio {
+    background: #f4f4f4;
+    padding-top: 100px;
+    /* height: 35rem; */
+    height: 100vh;
+}
+
+.portfolio-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding-top: 100px;
+    /* height: 35rem; */
+    height: 100vh;
+    background: #fff;
+}
+.footer {
+    padding: 2rem;
+    height: 10rem;
+    background: #202020;
+    color: #fff;
 }
 
 .btn-link-1 {
@@ -97,29 +126,6 @@ html,h1,h2,h3,h4,h5,h6,a {
     outline: 0;
     color: #fff;
     box-shadow: none;
-}
-
-.portfolio {
-    background: #f4f4f4;
-    padding: 2rem;
-    height: 35rem;
-}
-
-.portfolio-title {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.contact {
-    padding: 2rem;
-    height: 35rem;
-    background: #fff;
-}
-.footer {
-    padding: 2rem;
-    height: 10rem;
-    background: #202020;
-    color: #fff;
 }
 
 @media only screen and (max-device-width: 1366px) {
