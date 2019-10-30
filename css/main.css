@@ -73,7 +73,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .para2 {
     background-image: url('../images/projects.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     -webkit-background-size: cover;
@@ -181,6 +181,12 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 @media only screen and (max-device-width: 1366px) {
     .para {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .para2 {
         background-attachment: scroll;
     }
 }
