@@ -100,8 +100,19 @@ html,h1,h2,h3,h4,h5,h6,a {
   margin-bottom: 16px;
 }
 
-.portfolio {
+.services {
     background: #f4f4f4;
+    padding-top: 100px;
+    height: 60rem;
+}
+
+.services-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    background: #fff;
     padding-top: 100px;
     height: 60rem;
 }
@@ -110,6 +121,7 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: #333;
     margin-bottom: 20px;
 }
+
 
 .contact {
     padding-top: 100px;
@@ -124,7 +136,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 .footer {
     padding: 1rem;
-    height: 10rem;
+    height: 15rem;
     background: #202020;
     color: #f4f4f4;
 }
