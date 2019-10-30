@@ -41,6 +41,17 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: rgba(255, 255, 255, 0.9);
 
   }
+
+.body-link {
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.body-link:hover, .body-link:focus {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
 .top {
     padding-top: 10rem;
     height: 57rem;
@@ -50,6 +61,19 @@ html,h1,h2,h3,h4,h5,h6,a {
 .para {
     background-image: url('../images/header.jpg');
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 500px;
+
+  
+}
+
+.para2 {
+    background-image: url('../images/projects.jpg');
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     -webkit-background-size: cover;
@@ -89,17 +113,35 @@ html,h1,h2,h3,h4,h5,h6,a {
     margin-bottom: 20px;
 }
 
-.contact {
+.projects {
+    background: #fff;
     padding-top: 100px;
     /* height: 35rem; */
     height: 100vh;
-    background: #fff;
+}
+
+.projects-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding-top: 100px;
+    /* height: 35rem; */
+    height: 50vh;
+    background: rgba(155, 89, 182, 0.9);
+    color: #fff;
+}
+
+.contact-title {
+    color: #fff;
+    margin-bottom: 20px;
 }
 .footer {
-    padding: 2rem;
+    padding: 1rem;
     height: 10rem;
     background: #202020;
-    color: #fff;
+    color: #f4f4f4;
 }
 
 .btn-link-1 {
@@ -125,6 +167,30 @@ html,h1,h2,h3,h4,h5,h6,a {
     background: rgba(155, 89, 182, 0.9);
     outline: 0;
     color: #fff;
+    box-shadow: none;
+}
+
+.btn-link-2 {
+    display: inline-block;
+    height: 50px;
+    margin-top: 1rem;
+    padding: 0 28px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color:  rgba(155, 89, 182, 1);;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.btn-link-2:hover, .btn-link-2:focus, .btn-link-2:active, .btn-link-2:active:focus,
+.btn-link-2.btn-primary:not(:disabled):not(.disabled):active,
+.btn-link-2.btn-primary:not(:disabled):not(.disabled):active:focus {
+    background: rgba(255, 255, 255, 1);
+    outline: 0;
+    color: rgba(155, 89, 182, 1);;
     box-shadow: none;
 }
 
