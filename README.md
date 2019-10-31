@@ -1,2 +1,2 @@
-clintros.com / clintros.github.io
-Freelance Web Designer
+# clintros.com / clintros.github.io
+# Freelance Web Designer
