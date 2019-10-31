@@ -217,11 +217,14 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .scrollmargin {
-    margin-top: 35rem;
+    margin-top: 10%;
     color: rgba(155, 89, 182, 1);
     font-size: 15px;
     font-weight: 600;
-    position: relative;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
 
 }
 

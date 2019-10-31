@@ -56,3 +56,11 @@ $('#to-top').click(function() {      // Check for arrow being clicked, when it h
     }, 1000);
 });
 
+// Fade the 'scroll down to see more' text in and out
+$(window).scroll(function() {
+	if ($(this).scrollTop() >= 300) {
+		$('.scrollmargin').fadeOut(20);
+	} else {
+		$('.scrollmargin').fadeIn(20);
+	}
+});
