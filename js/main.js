@@ -14,12 +14,15 @@ function Scroll(link, navHeight) {
 	// Check if the window scrollbar location is already at the position we want to go to. If not, move to the position we want
 		if ($(window).scrollTop() != scrollTo) {
 			$('html, body').stop().animate({scrollTop: scrollTo}, 1000);
+			// Change URL to hash of clicked link
+			window.location.hash = link.attr('href');
 		}
 }
 
 // Make sure document is ready. On click of navigation link, call the Scroll function to scroll the page:
 $( document ).ready(function() {
 	$('a.scroll-link').on('click', function(e) {
+		// Prevent default click/hash feature
 		e.preventDefault();
 		Scroll($(this), $('nav').outerHeight());
 	});
