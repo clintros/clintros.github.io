@@ -29,7 +29,7 @@ function Scroll(link, navHeight) {
 
 // Make sure document is ready. On click of navigation link, call the Scroll function to scroll the page:
 $( document ).ready(function() {
-	$('.navbar-nav li a').on('click', function(e) {
+	$('.navbar-nav li a, .scroll-link').on('click', function(e) {
 		// Prevent default click/hash feature
 		e.preventDefault();
 		Scroll($(this), $('nav').outerHeight());
