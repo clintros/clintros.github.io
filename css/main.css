@@ -265,6 +265,52 @@ html,h1,h2,h3,h4,h5,h6,a {
     top: 5px;
 }
 
+.icon-html {
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-html:hover {
+    color: #e44d25;
+}
+
+.icon-css3 {
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-css3:hover {
+    color: #189bed;
+}
+
+.icon-js {
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-js:hover {
+    color: #62a813;
+}
+
+.icon-react {
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-react:hover {
+    color: #60dafb;
+}
+
+.icon-node {
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-node:hover {
+    color: #339933;
+}
+
+
 @media only screen and (max-device-width: 1366px) {
 .para {
     background-attachment: scroll;
