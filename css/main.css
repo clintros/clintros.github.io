@@ -85,7 +85,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .about {
-  padding-top: 70px;
+  padding-top: 100px;
   height: 60rem;
 }
 .about-title {
@@ -192,13 +192,43 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 @media only screen and (max-device-width: 1366px) {
-    .para {
-        background-attachment: scroll;
+.para {
+    background-attachment: scroll;
     }
+
+.para2 {
+    background-attachment: scroll;
+    }
+
+    
+.about {
+    padding-top: 70px;
+    height: 60rem;
+  }
+ 
+  .services {
+      background: #f4f4f4;
+      padding-top: 70px;
+      height: 60rem;
+  }
+  
+  .services-title {
+      color: #333;
+      margin-bottom: 20px;
+  }
+  
+  .portfolio {
+      background: #fff;
+      padding-top: 70px;
+      height: 60rem;
+  }
+   
+  .contact {
+      padding-top: 70px;
+      height: 30rem;
+      background: rgba(155, 89, 182, 0.8);
+      color: #fff;
+  }
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .para2 {
-        background-attachment: scroll;
-    }
-}
+
