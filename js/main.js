@@ -34,5 +34,25 @@ $( document ).ready(function() {
 		e.preventDefault();
 		Scroll($(this), $('nav').outerHeight());
 	});
-
 });
+
+
+/*
+jQuery Return to Top button function
+*/
+
+$(window).scroll(function() {
+
+    if ($(this).scrollTop() >= 500) {        // Check if page has been scrolled more than 500px
+        $('#to-top').fadeIn(200);    // Use fadeIn to make the arrow visible
+    } else {
+        $('#to-top').fadeOut(200);   // Else, we are less than 500px so make the arrow invisible
+    }
+});
+
+$('#to-top').click(function() {      // Check for arrow being clicked, when it has been:
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll back to the top of the page
+    }, 1000);
+});
+
