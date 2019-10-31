@@ -9,7 +9,7 @@ function Scroll(link, navHeight) {
 	let scrollTo = 0;
 	// Get the top offset for whatever object we clicked on, minus the height of the nav bar
 		if (linkClass != '.top') {
-			scrollTo = $(linkClass).offset().top;
+			scrollTo = $(linkClass).offset().top - navHeight;
 		}
 	// Check if the window scrollbar location is already at the position we want to go to. If not, move to the position we want
 		if ($(window).scrollTop() != scrollTo) {
@@ -20,6 +20,7 @@ function Scroll(link, navHeight) {
 // Make sure document is ready. On click of navigation link, call the Scroll function to scroll the page:
 $( document ).ready(function() {
 	$('a.scroll-link').on('click', function(e) {
+		e.preventDefault();
 		Scroll($(this), $('nav').outerHeight());
 	});
 });
