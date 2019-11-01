@@ -305,7 +305,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .icon-node {
-    padding-right: 10px;
+    
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -340,24 +340,24 @@ html,h1,h2,h3,h4,h5,h6,a {
     height: 60rem;
   }
  
-  .services {
+.services {
       background: #f4f4f4;
       padding-top: 70px;
-      height: 60rem;
+      height: 70rem;
   }
   
-  .services-title {
+.services-title {
       color: #333;
       margin-bottom: 20px;
   }
   
-  .portfolio {
+.portfolio {
       background: #fff;
       padding-top: 70px;
       height: 60rem;
   }
    
-  .contact {
+.contact {
       padding-top: 70px;
       height: 30rem;
       background: rgba(155, 89, 182, 0.8);
