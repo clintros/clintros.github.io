@@ -341,7 +341,7 @@ html,h1,h2,h3,h4,h5,h6,a {
     padding: 1rem;
     height: 18rem;
     background: #202020;
-    color: #f4f4f4;
+    color: rgba(255, 255, 255, 0.6);;
 }
 
 
