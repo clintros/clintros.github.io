@@ -217,11 +217,11 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .scrollmargin {
-    margin-top: 10%;
+    margin-top: 100%;
     color: rgba(155, 89, 182, 1);
     font-size: 15px;
     font-weight: 600;
-    position: fixed;
+    position: scroll;
     left: 50%;
     transform: translateX(-50%);
 
@@ -233,7 +233,7 @@ html,h1,h2,h3,h4,h5,h6,a {
     bottom: 20px;
     right: 20px;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     width: 50px;
     height: 50px;
     display: block;
@@ -313,6 +313,17 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: #339933;
 }
 
+.itemmargin {
+    margin-bottom: 30%;
+}
+
+
+/* Mobile Related CSS below this point
+/
+/
+/
+/
+*/
 
 @media only screen and (max-device-width: 1366px) {
 .para {
@@ -352,9 +363,16 @@ html,h1,h2,h3,h4,h5,h6,a {
       background: rgba(155, 89, 182, 0.8);
       color: #fff;
   }
-}
 
-.itemmargin {
-    margin-bottom: 30%;
-}
+.scrollmargin {
+    margin-top: 10%;
+    color: rgba(155, 89, 182, 1);
+    font-size: 15px;
+    font-weight: 600;
+    position: scroll;
+    left: 50%;
+    transform: translateX(-50%);
 
+
+}
+}
