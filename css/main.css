@@ -247,7 +247,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 .services {
     background: #f4f4f4;
     padding-top: 100px;
-    height: 70rem;
+    height: 75rem;
 }
 
 .services-title {
@@ -259,6 +259,18 @@ html,h1,h2,h3,h4,h5,h6,a {
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.services-box {
+	width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 28px;
+    background: rgba(155, 89, 182, 1);
 }
 
 .icon-html {
