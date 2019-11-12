@@ -272,7 +272,8 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .top {
     padding-top: 10rem;
-    height: 57rem;
+    /* height: 57rem; */
+    height: 100vh;
     
 }
 
@@ -307,6 +308,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 .about {
     padding-top: 100px;
     height: 60rem;
+    background: #f4f4f4;
   }
   .about-title {
     color: #333;
@@ -329,7 +331,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .services {
-    background: #f4f4f4;
+    
     padding-top: 100px;
     height: 75rem;
 }
@@ -408,7 +410,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 /* Portfolio Section */
 .portfolio {
-    background: #fff;
+    background: #f4f4f4;
     padding-top: 100px;
     height: 60rem;
 }
