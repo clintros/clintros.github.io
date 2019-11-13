@@ -385,10 +385,10 @@ html,h1,h2,h3,h4,h5,h6,a {
 .about {
     padding-top: 70px;
     height: 60rem;
+    background: #f4f4f4;
   }
  
 .services {
-      background: #f4f4f4;
       padding-top: 70px;
       height: 85rem;
   }
@@ -399,7 +399,7 @@ html,h1,h2,h3,h4,h5,h6,a {
   }
   
 .portfolio {
-      background: #fff;
+      background: #f4f4f4;
       padding-top: 70px;
       height: 60rem;
   }
