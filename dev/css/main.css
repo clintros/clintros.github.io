@@ -563,3 +563,18 @@ html,h1,h2,h3,h4,h5,h6,a {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
   }
+
+  .arrow {
+      animation-name: arrowBounce;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+  }
+
+  @keyframes arrowBounce {
+      0% { transform: translate(0, 0); }
+      25% { transform: translate(0, -20px); }
+      50% { transform: translate(0, 0); }
+      75% { transform: translate(0, -20px); }
+      100% { transform: translate(0, 0); }
+  }
