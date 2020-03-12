@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Open+Sans&display=swap');
 
 /* main.css for clintros.com. Created by Clint Ros 2019. 
 /
@@ -365,7 +367,8 @@ html,h1,h2,h3,h4,h5,h6,a {
     padding: 1rem;
     height: 18rem;
     background: #202020;
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Poppins';
 }
 
 
@@ -435,60 +438,60 @@ html,h1,h2,h3,h4,h5,h6,a {
     left: 50%;
     width: 70%;
     transform: translate(-50%, -50%);
-    animation: fill 0.5s ease forwards 3.2s;
+    animation: fill 0.2s ease forwards 1.5s;
 }
 
 .logo path:nth-child(1) {
     stroke-dasharray: 508.5516357421875px;
     stroke-dashoffset: 508.5516357421875px;
-    animation: line-anim 2s ease forwards;
+    animation: line-anim 1s ease forwards;
 }
 
 .logo path:nth-child(2) {
     stroke-linecap: square;
     stroke-dasharray: 297.21600341796875px;
     stroke-dashoffset: 297.21600341796875px;
-    animation: line-anim 2s ease forwards 0.3s;
+    animation: line-anim 1s ease forwards 0.2s;
 }
 
 .logo path:nth-child(3) {
     stroke-linecap: square;
     stroke-dasharray: 226.9439697265625px;
     stroke-dashoffset: 226.9439697265625px;
-    animation: line-anim 2s ease forwards 0.6s;
+    animation: line-anim 1s ease forwards 0.4s;
 }
 
 .logo path:nth-child(4) {
     stroke-linecap: square;
     stroke-dasharray: 604.4829711914062px;
     stroke-dashoffset: 604.4829711914062px;
-    animation: line-anim 2s ease forwards 0.9s;
+    animation: line-anim 1s ease forwards 0.6s;
 }
 
 .logo path:nth-child(5) {
     stroke-linecap: square;
     stroke-dasharray: 336.6719665527344px;
     stroke-dashoffset: 336.6719665527344px;
-    animation: line-anim 2s ease forwards 1.2s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 
 .logo path:nth-child(6) {
     stroke-linecap: round;
     stroke-dasharray: 549.06689453125px;
     stroke-dashoffset: 549.06689453125px;
-    animation: line-anim 2s ease forwards 1.5s;
+    animation: line-anim 1s ease forwards 1s;
 }
 
 .logo path:nth-child(7) {
     stroke-dasharray: 565.9514770507812px;
     stroke-dashoffset: 565.9514770507812px;
-    animation: line-anim 2s ease forwards 1.8s;
+    animation: line-anim 1s ease forwards 0.7s;
 }
 
 .logo path:nth-child(8) {
     stroke-dasharray: 493.9139404296875px;
     stroke-dashoffset: 493.9139404296875px;
-    animation: line-anim 2s ease forwards 2.1s;
+    animation: line-anim 1s ease forwards 0.8s;
 }
 
 
