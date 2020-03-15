@@ -269,7 +269,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 /* Contact Section */
 .contact {
     padding-top: 100px;
-    height: 40rem;
+    padding-bottom: 100px;
     background: rgb(31, 105, 155);
     color: #fff;
 }
@@ -291,9 +291,12 @@ html,h1,h2,h3,h4,h5,h6,a {
     font-family: 'Poppins';
 } 
 
+.footer-small {
+  font-size: 12px;
+}
 
 /* Mobile Related CSS */
-@media only screen and (max-device-width: 1366px) {
+/* @media only screen and (max-device-width: 1366px) {
 
 .about {
     padding-top: 70px;
@@ -334,7 +337,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .box {
     margin-top: 10%;
-}
+} */
 
 /* Animation */
 
