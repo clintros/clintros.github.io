@@ -3,12 +3,14 @@
 
 /* Body and Heading Section */
 body {
-    font-family: "Raleway";
+    font-family: "Poppins";
 }
 
 html,h1,h2,h3,h4,h5,h6,a {
     font-family: "Raleway";
 }
+
+
 
 /* Navbar/Link Section */
 .navbar { 
@@ -24,12 +26,18 @@ html,h1,h2,h3,h4,h5,h6,a {
 .navbar-nav {
    color: #fff;
    font-weight: 400;
-
 }
 
-.nav-link , .navbar-brand { 
+.navbar-brand {
+  cursor: pointer;
+  font-family: 'Poppins';
+  color: rgb(31, 105, 155);
+}
+
+.nav-link { 
     color: #fff;
     cursor: pointer;
+    font-family: 'Poppins';
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -41,7 +49,7 @@ html,h1,h2,h3,h4,h5,h6,a {
     color: rgba(255, 255, 255, 0.8);
   }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
 
   }
 
@@ -203,7 +211,8 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 .services {
     padding-top: 100px;
-    height: 50rem;
+    padding-bottom: 200px;
+    
 }
 
 .services-title {
