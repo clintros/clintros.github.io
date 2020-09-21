@@ -239,9 +239,53 @@ html,h1,h2,h3,h4,h5,h6,a {
     background: rgb(31, 105, 155);
 }
 
+.icon-html {
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-html:hover {
+  color: #e44d25;
+}
+
+.icon-css3 {
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-css3:hover {
+  color: #189bed;
+}
+
+.icon-js {
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-js:hover {
+  color: #62a813;
+}
+
+.icon-react {
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-react:hover {
+  color: #60dafb;
+}
+
+.icon-node {
+  
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-node:hover {
+  color: #339933;
+}
 
 .icon-services {
-    color: rgba(155, 89, 182, 0.8);
+  color: rgba(155, 89, 182, 0.8);
 }
 
 
