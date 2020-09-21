@@ -10,7 +10,7 @@
         <title>Clint Ros</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./assets/main.css">
 
 
         <script src="https://kit.fontawesome.com/79a075bad4.js" crossorigin="anonymous"></script>
@@ -18,11 +18,6 @@
 </head>
 
 <body>
-<!-- 
-    clintros.com
-    Site created by Clint Ros with use of Bootstrap and jQuery.
--->
-
 
 <!-- Navbar -->
     <nav class="navbar fixed-top navbar-dark navbar-expand-md">
@@ -37,11 +32,8 @@
                             <a class="nav-link scroll-link" data-value="about" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link scroll-link" data-value="services" href="#services">Services</a>
+                            <a class="nav-link scroll-link" data-value="services" href="#services">Services</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link scroll-link" data-value="portfolio" href="#portfolio">Portfolio</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link scroll-link" data-value="contact" href="#contact">Contact</a>
                         </li>
@@ -55,47 +47,20 @@
 <div class="top">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                
-                    <a href="javascript:" id="to-top"><i class="fas fa-chevron-up"></i></a>
-                    <svg class="logo" viewBox="0 0 470 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.12799 36.496C2.12799 29.968 3.59999 24.112 6.54399 18.928C9.48799 13.68 13.488 9.584 18.544 6.64C23.664 3.696 29.328 2.224 35.536 2.224C42.832 2.224 49.2 3.984 54.64 7.504C60.08 11.024 64.048 16.016 66.544 22.48H56.08C54.224 18.448 51.536 15.344 48.016 13.168C44.56 10.992 40.4 9.904 35.536 9.904C30.864 9.904 26.672 10.992 22.96 13.168C19.248 15.344 16.336 18.448 14.224 22.48C12.112 26.448 11.056 31.12 11.056 36.496C11.056 41.808 12.112 46.48 14.224 50.512C16.336 54.48 19.248 57.552 22.96 59.728C26.672 61.904 30.864 62.992 35.536 62.992C40.4 62.992 44.56 61.936 48.016 59.824C51.536 57.648 54.224 54.544 56.08 50.512H66.544C64.048 56.912 60.08 61.872 54.64 65.392C49.2 68.848 42.832 70.576 35.536 70.576C29.328 70.576 23.664 69.136 18.544 66.256C13.488 63.312 9.48799 59.248 6.54399 54.064C3.59999 48.88 2.12799 43.024 2.12799 36.496Z" stroke="black" stroke-width="4"/>
-                        <path d="M88.2842 62.896H111.708V70H79.5482V3.088H88.2842V62.896Z" stroke="black" stroke-width="4"/>
-                        <path d="M129.722 3.088V70H120.986V3.088H129.722Z" stroke="black" stroke-width="4"/>
-                        <path d="M197.219 70H188.483L153.347 16.72V70H144.611V2.992H153.347L188.483 56.176V2.992H197.219V70Z" stroke="black" stroke-width="4"/>
-                        <path d="M253.295 3.088V10.192H235.055V70H226.319V10.192H207.983V3.088H253.295Z" stroke="black" stroke-width="4"/>
-                        <path d="M324.874 70L308.938 42.64H298.378V70H289.642V3.088H311.242C316.298 3.088 320.554 3.952 324.01 5.68C327.53 7.408 330.154 9.744 331.882 12.688C333.61 15.632 334.474 18.992 334.474 22.768C334.474 27.376 333.13 31.44 330.442 34.96C327.818 38.48 323.85 40.816 318.538 41.968L335.338 70H324.874ZM298.378 35.632H311.242C315.978 35.632 319.53 34.48 321.898 32.176C324.266 29.808 325.45 26.672 325.45 22.768C325.45 18.8 324.266 15.728 321.898 13.552C319.594 11.376 316.042 10.288 311.242 10.288H298.378V35.632Z" stroke="black" stroke-width="4"/>
-                        <path d="M378.384 70.672C372.176 70.672 366.512 69.232 361.392 66.352C356.272 63.408 352.208 59.344 349.2 54.16C346.256 48.912 344.784 43.024 344.784 36.496C344.784 29.968 346.256 24.112 349.2 18.928C352.208 13.68 356.272 9.616 361.392 6.736C366.512 3.792 372.176 2.32 378.384 2.32C384.656 2.32 390.352 3.792 395.472 6.736C400.592 9.616 404.624 13.648 407.568 18.832C410.512 24.016 411.984 29.904 411.984 36.496C411.984 43.088 410.512 48.976 407.568 54.16C404.624 59.344 400.592 63.408 395.472 66.352C390.352 69.232 384.656 70.672 378.384 70.672ZM378.384 63.088C383.056 63.088 387.248 62 390.96 59.824C394.736 57.648 397.68 54.544 399.792 50.512C401.968 46.48 403.056 41.808 403.056 36.496C403.056 31.12 401.968 26.448 399.792 22.48C397.68 18.448 394.768 15.344 391.056 13.168C387.344 10.992 383.12 9.904 378.384 9.904C373.648 9.904 369.424 10.992 365.712 13.168C362 15.344 359.056 18.448 356.88 22.48C354.768 26.448 353.712 31.12 353.712 36.496C353.712 41.808 354.768 46.48 356.88 50.512C359.056 54.544 362 57.648 365.712 59.824C369.488 62 373.712 63.088 378.384 63.088Z" stroke="black" stroke-width="4"/>
-                        <path d="M444.733 70.672C440.317 70.672 436.349 69.904 432.829 68.368C429.373 66.768 426.653 64.592 424.669 61.84C422.685 59.024 421.661 55.792 421.597 52.144H430.909C431.229 55.28 432.509 57.936 434.749 60.112C437.053 62.224 440.381 63.28 444.733 63.28C448.893 63.28 452.157 62.256 454.525 60.208C456.957 58.096 458.173 55.408 458.173 52.144C458.173 49.584 457.469 47.504 456.061 45.904C454.653 44.304 452.893 43.088 450.781 42.256C448.669 41.424 445.821 40.528 442.237 39.568C437.821 38.416 434.269 37.264 431.581 36.112C428.957 34.96 426.685 33.168 424.765 30.736C422.909 28.24 421.981 24.912 421.981 20.752C421.981 17.104 422.909 13.872 424.765 11.056C426.621 8.24 429.213 6.064 432.541 4.528C435.933 2.992 439.805 2.224 444.157 2.224C450.429 2.224 455.549 3.792 459.517 6.928C463.549 10.064 465.821 14.224 466.333 19.408H456.733C456.413 16.848 455.069 14.608 452.701 12.688C450.333 10.704 447.197 9.712 443.293 9.712C439.645 9.712 436.669 10.672 434.365 12.592C432.061 14.448 430.909 17.072 430.909 20.464C430.909 22.896 431.581 24.88 432.925 26.416C434.333 27.952 436.029 29.136 438.013 29.968C440.061 30.736 442.909 31.632 446.557 32.656C450.973 33.872 454.525 35.088 457.213 36.304C459.901 37.456 462.205 39.28 464.125 41.776C466.045 44.208 467.005 47.536 467.005 51.76C467.005 55.024 466.141 58.096 464.413 60.976C462.685 63.856 460.125 66.192 456.733 67.984C453.341 69.776 449.341 70.672 444.733 70.672Z" stroke="black" stroke-width="4"/>
-                        </svg>
-            </div>
-
-            <div class="col-md-6 offset-md-2 box">
-                <h1 class="animated fadeInLeft delay-1s">Web developer.</h1>
-            </div>
-
+            <a href="javascript:" id="to-top"><i class="fas fa-chevron-up"></i></a>
             <div class="col-md-12 scrollmargin text-center">
-                <!-- Scroll down to see more<br /><a class="scroll-link" href="#about"><img src="./images/downarrow.svg" style="height: 12px;"></a> -->
-                Scroll down to see more<br /><br />
-                <svg class="arrow" enable-background="new 0 0 26 26" height="12px" id="Layer_1" version="1.1" viewBox="0 0 26 26" width="26px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polygon fill="#231F20" points="0.046,2.582 2.13,0.498 12.967,11.334 23.803,0.498 25.887,2.582 12.967,15.502  "/>
-                    <polygon fill="#231F20" points="0.046,13.582 2.13,11.498 12.967,22.334 23.803,11.498 25.887,13.582 12.967,26.502  "/></g>
-                </svg>
+                <h1 class="hero animated fadeIn delay-05">Clint Ros <br /> Web Developer</h1>
+            </div>
+            <div class="col-md-12 py-5 text-center">
+                <a class="btn btn-primary btn-link-1 scroll-link animated fadeInLeft delay-1s" href="#contact">Let's talk about how I can help you</a>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Image/Parallax Section -->
-    <!-- <div class="para">
-        <div class="container">
-            <h1>&nbsp</h1>
-        </div>
-    </div> -->
-
-
 <!-- About Section -->
 
-    <div class="about" id="about">
+<div class="about" id="about">
     <div class="container">
         <div class="row">
                 <div class="col-md-12 text-center">
@@ -106,117 +71,95 @@
         <div class="row">
             <div class="col-md-6 offset-md-3 text-left">
                 <p class="medium-paragraph">
-                Hi, I'm Clint. I'm a freelance web developer, coder and former network engineer. I'm based in Adelaide, South Australia.
-                </p>
-                <p>
-                Even from a young age, I've always had a passion for computers, designing things and solving problems.
-                </p>
-                <p>
-                I've spent the last 10 years working in various fields in the IT industry, both small businesses and large corporations alike. From nationally renowed Internet Providers like Internode and Uniti Wireless, to some of the biggest defence companies like BAE Systems and Raytheon.
-                I've even worked on warships!
-                </p>
-                I'd be thrilled to help you achieve your goals.  
-                </p>
-                <a class="btn btn-primary btn-link-1 scroll-link" href="#contact">Let's create something great</a>
+                    Hi, I'm Clint. I'm a web developer, coder and former network engineer. I'm based in Adelaide, South Australia. I'm currently employed full time but would be happy to discuss whether I can help you.
+                    </p>
+                    <p>
+                    Even from a young age, I've always had a passion for computers, designing things and solving problems.
+                    </p>
+                    <p>
+                    I've spent the last 10 years working in various fields in the IT industry, both small businesses and large corporations alike. From nationally renowed Internet Providers like Internode and Uniti Wireless, to some of the biggest defence companies like BAE Systems and Raytheon.
+                    I've even worked on warships!
+                    </p>
+                    I'd be thrilled to help you achieve your goals.  
+                    </p>
             </div>
         </div>
     </div>
-</div>
-
+</div>  
 
 <!-- Services Section -->
-     <div class="services" id="services">
-            <div class="container">
-        
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h1 class="services-title">Services</h1>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row mb-5">
-                                <div class="col-md-3 text-center">
-                                    <div class="services-box mb-3"><i class="fas fa-pencil-alt fa-1x"></i></div> 
-                                </div>
-                                <div class="col-md-9 text-left"><h4>Website Design & Development</h4>I build clean, responsive websites. 
-                                    Responsive websites are ones which look great on any device or screen size - be it a mobile phone, tablet, laptop or desktop PC.
-                                    Rest easy knowing that your website will look amazing for all of your customers.
-                                </div>
-                            </div>
-                        </div>
-                            
-                        <div class="col-md-6">
-                            <div class="row mb-5">
-                                <div class="col-md-3">
-                                    <div class="services-box mb-3"><i class="fas fa-search fa-1x"></i></div>
-                                </div>
-                                    <div class="col-md-9 text-left"><h4>Search Engine Optimisation</h4>Search Engines like Google are pivotal to drawing
-                                    people to your website, and if you're running a business that means potential customers and income. 
-                                    Search Engine Optimisation is a way to improve your ranking on websites like Google organically - without having to pay money for advertising.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="row servicemargin align-self-end">
-                            <div class="col-md-12 text-center">
-                                <h1 class="services-title">Technical Skillset</h1>
-                            </div>
-                            <div class="col-md-9 offset-md-2">
-                                    I currently work with HTML, CSS, PHP, JavaScript and JavaScript Frameworks like React and Node.js. <br />
-                            </div>
-                            <div class="col-md-6 offset-md-2 mt-3">
-                                    <a class="icon-html" href="https://www.w3.org/html/" target="_blank" data-toggle="tooltip" title="HTML5" data-placement="bottom"><i class="fab fa-html5 fa-4x"></a></i> 
-                                    <a class="icon-css3" href="http://www.css3.info/" target="_blank" data-toggle="tooltip" title="CSS3" data-placement="bottom"><i class="fab fa-css3-alt fa-4x"></i></a> 
-                                    <a class="icon-js" href="https://www.javascript.com/" target="_blank" data-toggle="tooltip" title="JavaScript" data-placement="bottom"> <i class="fab fa-js-square fa-4x"></i> </a>
-                                    <a class="icon-react" href="https://reactjs.org/" target="_blank" data-toggle="tooltip" title="React" data-placement="bottom"> <i class="fab fa-react fa-4x"></i> </a>
-                                    <a class="icon-node" href="https://nodejs.org/en/" target="_blank" data-toggle="tooltip" title="Node.js" data-placement="bottom"><i class="fab fa-node-js fa-4x"></i></a>     
-                            </div>
-                        </div>
-        
-            </div>
-        </div>
-        
-
-<!-- Second Parallax/Image -->
-<!-- 
-    <div class="para2">
+    <div class="services" id="services">
         <div class="container">
+        
             <div class="row">
-                <div class="col-md-12">
-                    <h1>&nbsp</h1>
+                <div class="col-md-12 mb-3 text-center">
+                    <h1 class="services-title">Services</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="row mb-5">
+                        <div class="col-md-3 text-center">
+                            <div class="services-box mb-3"><i class="fas fa-pencil-alt fa-1x"></i></div> 
+                        </div>
+                        <div class="col-md-9 px-md-5 px-lg-4 text-left"><h4><b>Website Design & Development</b></h4>
+                            I build clean, responsive websites. Responsive websites are ones which look great on any device or screen size - be it a mobile phone, tablet, laptop or desktop PC.
+                            Rest easy knowing that your website will look amazing for all of your customers.                        
+                        </div>
+                    </div>
+                </div>
+                            
+                <div class="col-lg-12">
+                    <div class="row mb-5">
+                        <div class="col-md-3">
+                            <div class="services-box mb-3"><i class="fas fa-search fa-1x"></i></div>
+                        </div>
+                        <div class="col-md-9 px-md-5 px-lg-4 text-left"><h4><b>Search Engine Optimisation</b></h4>
+                            Search Engines like Google are pivotal to drawing people to your website, and if you're running a business that means potential customers and income. 
+                            Search Engine Optimisation is a way to improve your ranking on websites like Google organically - without having to pay money for advertising.                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="row mb-5">
+                        <div class="col-md-3">
+                            <div class="services-box mb-3"><i class="fas fa-handshake fa-1x"></i></div>
+                            </div>
+                        <div class="col-md-9 px-md-5 px-lg-4 text-left"><h4><b>Consulting</b></h4>
+                            Work with me to achieve all of your IT goals.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> -->
-
-<!-- Portfolio Section -->
-
-    <!-- <div class="portfolio" id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1 class="portfolio-title animated-n">Portfolio</h1>
-                <span>
-                  
-                </span>
-            </div>
-        </div>
     </div>
-</div> -->
-
 
 <!-- Contact Section -->
-
 <div class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="contact-title">Contact</h1>
+                    <h1 class="contact-title pb-2">Contact</h1>
                     <div>
-                            <a class="btn btn-primary btn-link-2 scroll-link" href="mailto:clint@clintros.com" target="_blank">email me</a>
+                        <form>
+                            <div class="form-group row">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group row">
+                                <label for="exampleFormControlInput1">Phone</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="04xx xxx xxx">
+                              </div>
+                            <div class="form-group row">
+                              <label for="exampleFormControlTextarea1">Comment</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark mb-2">Send</button>
+                          </form>
                     </div>
                 </div>
             </div>
@@ -226,25 +169,16 @@
 
 <!-- Footer Section -->
 
-<div class="footer">
+<div class="footer pb-5 pt-5">
     <div class="container">
-        <div class="row pt-2">
-
-            <div class="col-md-4 offset-md-5 mb-1 text-left">
-                <a class="body-link" href="#">Top</a>
+        <div class="row pt-5">
+            <div class="col-md-12 mb-3 text-center">
+                <span class="px-lg-4 pb-2 pb-lg-0 d-block d-lg-inline"><b>Clint Ros - Web Developer</b></span>
+                <span class="px-lg-4 pb-2 pb-lg-0 d-block d-lg-inline"><a class="body-link" href="mailto:info@nartek.com.au">clint@clintros.com</a></span>
+                <span class="px-lg-4 pb-2 pb-lg-0 d-block d-lg-inline">Adelaide, South Australia, Australia</span>
+                <p class="py-lg-4"><img src="./assets//fb.svg"> <a class="body-link" href="" target="_blank"><img src="./assets//twitter.svg"></a> <a class="body-link" href="" target="_blank"><img src="./assets//linkedin.svg"></a></p>
+                <p class="footer-small">© Clint Ros 2019 - 2020. All rights reserved.</p>    
             </div>
-            <div class="col-md-4 offset-md-5 mb-5 text-left">
-                    <a class="body-link" data-value="blog" href="https://medium.com/@clinton.ros" target="_blank">Blog</a>
-            </div>
-        
-            <div class="col-md-4 offset-md-5 mb-5 text-left">
-                <img src="./images/fb.svg"> <a class="body-link" href="https://twitter.com/Clint_Ros" target="_blank"><img src="./images/twitter.svg"></a> <a class="body-link" href="https://www.linkedin.com/in/clintr/" target="_blank"><img src="./images/linkedin.svg"> <a class="body-link" href="https://github.com/clintros" target="_blank"><img src="./images/github.svg"></a> 
-            </div>
-
-            <div class="col-md-4 offset-md-5 text-left">
-                <p>© Clint Ros 2019 - 2020. All rights reserved.</p>    
-            </div>
-            
         </div>
     </div>
 </div>
@@ -256,7 +190,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="./js/main.js"></script>
+<script src="./assets/main.js"></script>
 </body>
 </html>
 

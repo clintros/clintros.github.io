@@ -60,9 +60,9 @@ $('#to-top').click(function() {      	// Check for arrow being clicked, when it 
 
 // Fade the 'scroll down to see more' text in and out
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 500) {
-		$('.scrollmargin').fadeOut(300);
+	if ($(this).scrollTop() >= 300) {
+		$('.scrollmargin').fadeOut(200);
 	} else {
-		$('.scrollmargin').fadeIn(300);
+		$('.scrollmargin').fadeIn(200);
 	}
 });

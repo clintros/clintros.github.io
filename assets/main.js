@@ -46,23 +46,32 @@ jQuery Return to Top button function
 */
 
 $(window).scroll(function() {
+	
 
-    if ($(this).scrollTop() >= 500) {	// Check if page has been scrolled more than 500px
-        $('#to-top').fadeIn(200);    	// Use fadeIn to make the arrow visible
-    } else {
-        $('#to-top').fadeOut(200);   	// Else, we are less than 500px so make the arrow invisible
-    }
+	if ($(this).scrollTop() >= 300) {
+		$('.navbar').css('background-color', '#202020');
+	}
+
+    else if ($(this).scrollTop() >= 500) {	
+        $('#to-top').fadeIn(200);    	
+	
+	} else {
+		$('.navbar').css('background-color', '#000000');
+		$('#to-top').fadeOut(200);   
+
+	}
+	
 });
 
 $('#to-top').click(function() {      	// Check for arrow being clicked, when it has been:
     $('body,html').animate({ scrollTop : 0 }, 1000);  // Scroll back to the top of the page
 });
 
-// Fade the 'scroll down to see more' text in and out
-$(window).scroll(function() {
-	if ($(this).scrollTop() > 500) {
-		$('.scrollmargin').fadeOut(300);
-	} else {
-		$('.scrollmargin').fadeIn(300);
-	}
-});
+// // Fade the 'scroll down to see more' text in and out
+// $(window).scroll(function() {
+// 	if ($(this).scrollTop() > 500) {
+// 		$('.scrollmargin').fadeOut(300);
+// 	} else {
+// 		$('.scrollmargin').fadeIn(300);
+// 	}
+// });
