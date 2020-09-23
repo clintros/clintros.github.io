@@ -14,7 +14,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 /* Navbar/Link Section */
 .navbar { 
-    background:#020202; 
+    background:#202020; 
     -o-transition: all .6s;
     -moz-transition: all .6s;
     -webkit-transition: all .6s;
@@ -185,8 +185,8 @@ html,h1,h2,h3,h4,h5,h6,a {
     padding-top: 20rem;
     /* height: 57rem; */
     height: 700px;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(74,74,74,1) 100%);
+    background: #202020;
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(74,74,74,1) 100%); */
 }
 
 .hero {

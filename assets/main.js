@@ -46,16 +46,12 @@ jQuery Return to Top button function
 $(window).scroll(function() {
 	loc = $(this).scrollTop();
 	
-	if (loc <= 200) {
-		$('#to-top').fadeOut(200);
-		$('.navbar').css('background-color', 'transparent');
-	} 
-	
 	if (loc >= 500) {
 		$('#to-top').css('visibility', 'visible');
 		$('#to-top').fadeIn(200);
-		$('.navbar').css('background-color', '#202020');
-	} 
+	} else {
+		$('#to-top').fadeOut(200);
+	}
 });
 
 $('#to-top').click(function() { // Check for arrow being clicked, when it has been:
