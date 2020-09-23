@@ -4,7 +4,7 @@ Navigation/Link jQuery smooth scrolling function.
 
 function getScrollPosition(link, navHeight) {
 	let scrollTo = 0;
-	let isToggleVisible = $('.navbar-toggler').is(':visible');   //Check if navbar-toggler is visible, if so we're on mobile or collapsed view.
+	let isToggleVisible = $('.navbar-toggler').is(':visible');  //Check if navbar-toggler is visible, if so we're on mobile or collapsed view.
 	let openNavHeight = $('nav').outerHeight();
 	let closedNavHeight = '56';
 	// Get the top offset for whatever object we clicked on, minus the height of the nav bar. If we're on mobile/collapsed view, hide the navbar menu after clicking a link and adjust heights to scroll to correct location.
@@ -23,7 +23,7 @@ function scroll(link) {
 
 	if ($(window).scrollTop() != scrollTo) {
 		$('html, body').stop().animate({scrollTop: scrollTo}, 1000);
-		window.location.hash = link.attr('href');  	// Change URL to hash of clicked link.
+		window.location.hash = link.attr('href');  // Change URL to hash of clicked link.
 	}
 }
 
