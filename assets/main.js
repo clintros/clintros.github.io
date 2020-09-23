@@ -30,6 +30,7 @@ function scroll(link) {
 // Make sure document is ready
 $(document).ready(function() {
 	$('[data-toggle="tooltip"]').tooltip();  // Make tooltips work on the page
+	$('#contact-button').hide();
 	$('.navbar-nav li a, .scroll-link').on('click', function(e) {  // When navbar or scroll-link hyperlinks are clicked, prevent default # action and instead use function scroll.
 		clickedLink = $(this).attr('href').replace('#', '.');
 
@@ -38,6 +39,13 @@ $(document).ready(function() {
 	});
 });
 
+$('#contact-form').submit(function(e) {
+	e.preventDefault();
+	$('#alert-box').removeClass('hide').addClass('alert alert-success alert-dismissible fade show');
+	$('#contact-button').show();
+	$('#alert-message').html('<strong>Message sent successfully!</strong>');
+	$('#modal').modal('show');
+});
 
 /*
 jQuery Return to Top button function.

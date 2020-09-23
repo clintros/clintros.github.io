@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Poppins|Montserrat|Roboto|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Montserrat|Roboto&display=swap');
 
 
 /* Body and Heading Section */
@@ -303,7 +303,6 @@ html,h1,h2,h3,h4,h5,h6,a {
     margin-bottom: 16px;
   }
 
-  
 
 /* Contact Section */
 .contact {
@@ -320,7 +319,6 @@ html,h1,h2,h3,h4,h5,h6,a {
 
 /* Footer Section */
 .footer {
-    /* height: 20rem; */
     background: #202020;
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Poppins';
