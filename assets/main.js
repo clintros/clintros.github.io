@@ -1,5 +1,5 @@
 /*
-Navigation/Link jQuery smooth scrolling function
+Navigation/Link jQuery smooth scrolling function.
 */
 
 function getScrollPosition(link, navHeight) {
@@ -18,7 +18,7 @@ function getScrollPosition(link, navHeight) {
 }
 
 function scroll(link) {
-	// Check if the window scrollbar location is already at the position we want to go to. If not, move to the position we want
+	// Check if the window scrollbar location is already at the position we want to go to. If not, move to the position we want.
 	scrollTo = getScrollPosition(link);
 
 	if ($(window).scrollTop() != scrollTo) {
@@ -30,17 +30,17 @@ function scroll(link) {
 // Make sure document is ready
 $(document).ready(function() {
 	$('[data-toggle="tooltip"]').tooltip();  // Make tooltips work on the page
-	$('.navbar-nav li a, .scroll-link').on('click', function(e) {  // When navbar or scroll-link hyperlinks are clicked, prevent default # action and instead use function Scroll
+	$('.navbar-nav li a, .scroll-link').on('click', function(e) {  // When navbar or scroll-link hyperlinks are clicked, prevent default # action and instead use function scroll.
 		clickedLink = $(this).attr('href').replace('#', '.');
 
-		e.preventDefault();  // Prevent default click/hash feature
+		e.preventDefault();  // Prevent default click/hash feature.
 		scroll(clickedLink);
 	});
 });
 
 
 /*
-jQuery Return to Top button function
+jQuery Return to Top button function.
 */
 
 $(window).scroll(function() {
@@ -55,16 +55,7 @@ $(window).scroll(function() {
 });
 
 $('#to-top').click(function() { // Check for arrow being clicked, when it has been:
-    $('body,html').animate({ scrollTop : 0 }, 1000);  // Scroll back to the top of the page
+    $('body,html').animate({ scrollTop : 0 }, 1000);  // Scroll back to the top of the page.
 });
-
-// // Fade the 'scroll down to see more' text in and out
-// $(window).scroll(function() {
-// 	if ($(this).scrollTop() > 500) {
-// 		$('.scrollmargin').fadeOut(300);
-// 	} else {
-// 		$('.scrollmargin').fadeIn(300);
-// 	}
-// });
 
 
