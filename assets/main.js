@@ -3,20 +3,18 @@ Navigation/Link jQuery smooth scrolling function
 */
 
 function getScrollPosition(link, navHeight) {
-	let linkClass = link.attr('href').replace('#', '.');  // Get the href attribute from clicked link.
 	let scrollTo = 0;
 	let isToggleVisible = $('.navbar-toggler').is(':visible');   //Check if navbar-toggler is visible, if so we're on mobile or collapsed view.
+	let openNavHeight = $('nav').outerHeight();
 	let closedNavHeight = '56';
-
 	// Get the top offset for whatever object we clicked on, minus the height of the nav bar. If we're on mobile/collapsed view, hide the navbar menu after clicking a link and adjust heights to scroll to correct location.
-		if (linkClass != '.top') {
+
 			if (!isToggleVisible) {
-				return scrollTo = $(linkClass).offset().top - navHeight;
+				return scrollTo = $(link).offset().top - openNavHeight;
 			}
 				
 			$(".navbar-collapse").collapse('hide');
-			return scrollTo = $(linkClass).offset().top - closedNavHeight;
-		}
+			return scrollTo = $(link).offset().top - closedNavHeight;
 }
 
 function scroll(link) {
@@ -33,8 +31,10 @@ function scroll(link) {
 $(document).ready(function() {
 	$('[data-toggle="tooltip"]').tooltip();  // Make tooltips work on the page
 	$('.navbar-nav li a, .scroll-link').on('click', function(e) {  // When navbar or scroll-link hyperlinks are clicked, prevent default # action and instead use function Scroll
+		clickedLink = $(this).attr('href').replace('#', '.');
+
 		e.preventDefault();  // Prevent default click/hash feature
-		scroll($(this), $('nav').outerHeight());
+		scroll(clickedLink);
 	});
 });
 
