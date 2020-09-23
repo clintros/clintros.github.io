@@ -136,19 +136,9 @@ html,h1,h2,h3,h4,h5,h6,a {
     box-shadow: none;
 }
 
-/* .scrollmargin {
-    margin-top: 20%;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-    position: scroll;
-    left: 50%;
-    transform: translateX(-50%);
-
-} */
-
 #to-top {
     position: fixed;
+    visibility: hidden;
     z-index: 1000;
     bottom: 20px;
     right: 20px;
@@ -240,7 +230,8 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .icon-html {
-  padding-right: 10px;
+  margin-right: 20px;
+  padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -249,7 +240,8 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .icon-css3 {
-  padding-right: 10px;
+  margin-right: 20px;
+  padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -258,7 +250,8 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .icon-js {
-  padding-right: 10px;
+  margin-right: 20px;
+  padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -267,7 +260,8 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .icon-react {
-  padding-right: 10px;
+  margin-right: 20px;
+  padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -276,7 +270,7 @@ html,h1,h2,h3,h4,h5,h6,a {
 }
 
 .icon-node {
-  
+  padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.7);
 }
 
