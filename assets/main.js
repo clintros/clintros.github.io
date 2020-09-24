@@ -40,7 +40,7 @@ $(document).ready(function() {
 });
 
 $('#contact-form').submit(function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	$('#alert-box').removeClass('hide').addClass('alert alert-success alert-dismissible fade show');
 	$('#contact-button').show();
 	$('#alert-message').html('<strong>Message sent successfully!</strong>');

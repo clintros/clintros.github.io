@@ -165,18 +165,22 @@
                 <div class="col-md-12 text-center">
                     <h1 class="contact-title pb-2">Contact</h1>
                     <div>
-                        <form id="contact-form">
+                        <form id="contact-form" action="https://formspree.io/mknpnyde" method="POST">
+                            <div class="form-group row">
+                                <label for="FormControlInput">Name</label>
+                                <input type="text" class="form-control" id="FormName" name="name">
+                              </div>
                             <div class="form-group row">
                               <label for="FormControlInput">Email address</label>
-                              <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
+                              <input type="email" class="form-control" id="FormEmail" name="email" placeholder="name@example.com">
                             </div>
                             <div class="form-group row">
                                 <label for="FormControlInput1">Phone</label>
-                                <input type="number" class="form-control" id="FormControlInput2" placeholder="04XX XXX XXX">
+                                <input type="number" class="form-control" id="FormNumber" name="number" placeholder="04XX XXX XXX">
                               </div>
                             <div class="form-group row">
                               <label for="FormControlTextarea1">Comment</label>
-                              <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                              <textarea class="form-control" id="FormComment" name="comment" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-dark mb-2">Send</button>
                           </form>
