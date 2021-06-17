@@ -1,0 +1,160 @@
+body {
+  background-color: #202020;
+  color: #fff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+a { 
+  font-weight: bold;
+}
+
+th{
+  font-weight: normal;
+}
+
+table {
+  table-layout: fixed;
+  width: 600px;
+}
+.is-borderless {
+  border: 0 !important;
+}
+
+table.is-completely-borderless td,
+table.is-completely-borderless th,
+table.is-completely-borderless tr {
+  border: 0 !important;
+}
+
+.is-top-borderless {
+  border-top: 0px !important;
+}
+
+.is-bottom-borderless {
+  border-bottom: 0px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blue {
+  color: #3298dc;
+}
+
+.names {
+  color: #3298dc;
+}
+
+.counts {
+  color: #3298dc;
+  justify-content: flex-end;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.site-content {
+flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #191919; 
+  width: 100%;
+}
+
+.foot {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #191919; 
+  width: 100%;
+  font-size: 12px;
+}
+
+.footer-links a {
+  padding-left: 10px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  color: #fff;
+
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: #fff;
+  margin-bottom: 150px;
+}
+
+.has-margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.has-margin-40 {
+  margin-top: 40px;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.match {
+  border-bottom: 1px dotted #3298dc;
+}
+
+.results-le {
+  /* border-bottom: 1px solid white; */
+  padding-top: 5px;
+  justify-content: space-evenly;
+}
+
+
+.results-ri {
+  /* border-bottom: 1px solid white; */
+  padding-top: 5px;
+  justify-content: space-evenly;
+}
+
+
+
+/* Animation */
+.delay-1 {
+  animation-delay: .25s;
+  }
+.delay-2 {
+  animation-delay: .5s;
+  }
+.delay-3 {
+  animation-delay: .75s;
+  }
+.delay-4 {
+  animation-delay: 1s;
+  }
+.delay-5 {
+  animation-delay: 1.25s;
+    }
+.delay-6 {
+  animation-delay: 1.5s;
+      }
