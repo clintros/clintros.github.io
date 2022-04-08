@@ -66,4 +66,8 @@ $('#to-top').click(function() { // Check for arrow being clicked, when it has be
     $('body,html').animate({ scrollTop : 0 }, 1000);  // Scroll back to the top of the page.
 });
 
-
+// Dynamic date for footer copyright.
+let date = new Date();
+let currentYear = date.getFullYear();
+let crText = '© Clint Ros 2019 - ' + currentYear + '. All rights reserved.';
+let dateText = $('#date').html(crText);
